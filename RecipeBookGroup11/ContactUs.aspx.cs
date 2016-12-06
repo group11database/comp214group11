@@ -12,6 +12,15 @@ namespace RecipeBookGroup11
 {
     public partial class ContactUs : System.Web.UI.Page
     {
+
+        protected void Page_PreInit(object sender, EventArgs e)
+        {
+            HttpCookie myCookie = Request.Cookies["theme"];
+
+            if (myCookie != null)
+                Page.Theme = myCookie.Value;
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
