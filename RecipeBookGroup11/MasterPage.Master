@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="RecipeBookGroup11.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Recipe World</title>
+    <link rel="stylesheet" type="text/css" href="Styles/StyleSheet.css" />
+    <script type="text/javascript" src="JavaScript.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <form id="form1" runat="server">
+        <div id="outer">
+            <!-- Banner -->
+            <div id="banner">
+                <h1 style="margin: 50px 0px 0px 200px"> Receipe Book </h1>
+
+                <div id="book">
+                    <img src="Styles/book.jpg" style="height:100px; width:100px; margin-top:-70px; margin-left:20px;" runat="server"/>
+                </div>
+            </div>
+            <%--Name: Darshit Desai
+            Student Number: 300910840--%>
+            <!-- Navigation Bar -->
+            <div id="navigation">
+                <ul id="nav"> 
+                    <li><a href="Home.aspx" style="color:black">Home</a></li>
+                    <li><a href="RecipesPage.aspx" style="color:black">Recipes</a></li>
+                    <li><a href="AddRecipe.aspx" style="color:black">Add recipe</a></li>
+                    <li><a href="RecipeSearch.aspx" style="color:black">Search</a></li>
+                    <li><a href="Setup.aspx" style="color:black">Setup</a></li>
+                </ul>
+            </div>
+
+            <!-- Content Area -->
+            <div id="content_area">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+
+            <!-- Footer -->
+            <div id="footer">
+                <p>&copy 2016. All rights reserved <a style="float:right; margin-right:350px; text-decoration:none" href="ContactUs.aspx">Contact Us</a></p>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
