@@ -21,6 +21,6 @@
         Chicken Dishes:<br />
         Chicken is the most widely used poultry used for countless number of dishes around the world. It is eaten by all non-vegetarians and does not have any religious restrictions. In India, chicken is often cut into medium sized pieces and is used to make curries, dry dishes and biryani. Also chicken drumstick and thighs are sold separately which are used to make roast, tandoori chicken etc. 
     </p>
-    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Total number of Recipes on website:</asp:LinkButton>
+    <%--<asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Total number of Recipes on website:</asp:LinkButton>--%>
 
 </asp:Content>

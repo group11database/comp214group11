@@ -121,6 +121,7 @@
     <Content Include="ListOfIngredients.ascx" />
     <Content Include="RecipeSearch.aspx" />
     <Content Include="RecipesPage.aspx" />
+    <Content Include="RecipeUpdate.aspx" />
     <Content Include="Setup.aspx" />
     <Content Include="Styles\1.jpg" />
     <Content Include="Styles\2.jpg" />
@@ -194,6 +195,13 @@
     </Compile>
     <Compile Include="RecipesPage.aspx.designer.cs">
       <DependentUpon>RecipesPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeUpdate.aspx.cs">
+      <DependentUpon>RecipeUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecipeUpdate.aspx.designer.cs">
+      <DependentUpon>RecipeUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Setup.aspx.cs">
       <DependentUpon>Setup.aspx</DependentUpon>

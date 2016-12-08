@@ -25,36 +25,36 @@ namespace RecipeBookGroup11
 
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
-        {
-            using (OracleConnection con = new OracleConnection
-            (ConfigurationManager.ConnectionStrings["oracle1"].ConnectionString))
-            {
-                OracleCommand com = new OracleCommand();
-                com.Connection = con;
+        //protected void LinkButton1_Click(object sender, EventArgs e)
+        //{
+        //    using (OracleConnection con = new OracleConnection
+        //    (ConfigurationManager.ConnectionStrings["oracle1"].ConnectionString))
+        //    {
+        //        OracleCommand com = new OracleCommand();
+        //        com.Connection = con;
 
-                com.CommandText = "callRec";
-                com.CommandType = CommandType.StoredProcedure;
+        //        com.CommandText = "callRec";
+        //        com.CommandType = CommandType.StoredProcedure;
 
-                //com.Parameters.Add("name", OracleDbType.Varchar2).Value = txtContactName.Text;
-                //com.Parameters.Add("phonenumber", OracleDbType.Varchar2).Value = txtContactPhone.Text;
-                //com.Parameters.Add("description", OracleDbType.Varchar2).Value = txtContactDesc.Text;
-                //com.Parameters.Add("email", OracleDbType.Varchar2).Value = txtContactEmail.Text;
+        //        //com.Parameters.Add("name", OracleDbType.Varchar2).Value = txtContactName.Text;
+        //        //com.Parameters.Add("phonenumber", OracleDbType.Varchar2).Value = txtContactPhone.Text;
+        //        //com.Parameters.Add("description", OracleDbType.Varchar2).Value = txtContactDesc.Text;
+        //        //com.Parameters.Add("email", OracleDbType.Varchar2).Value = txtContactEmail.Text;
 
-                try
-                {
-                    con.Open();
-                    com.ExecuteNonQuery();
-                }
-                catch (Exception)
-                {
+        //        try
+        //        {
+        //            con.Open();
+        //            com.ExecuteNonQuery();
+        //        }
+        //        catch (Exception)
+        //        {
 
-                }
+        //        }
 
-                con.Close();
-            }
+        //        con.Close();
+        //    }
 
-            Response.Redirect("RecipesPage.aspx");
-        }
+        //    Response.Redirect("RecipesPage.aspx");
+        //}
     }
 }

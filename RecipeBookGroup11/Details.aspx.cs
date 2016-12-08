@@ -63,5 +63,11 @@ namespace RecipeBookGroup11
 
             Response.Redirect("RecipesPage.aspx");
         }
+
+        protected void btnEdit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("RecipeUpdate.aspx");
+
+        }
     }
 }

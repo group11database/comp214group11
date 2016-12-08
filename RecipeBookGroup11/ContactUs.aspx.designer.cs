@@ -31,6 +31,15 @@ namespace RecipeBookGroup11 {
         protected global::System.Web.UI.WebControls.TextBox txtContactName;
         
         /// <summary>
+        /// RequiredFieldValidatorContactName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorContactName;
+        
+        /// <summary>
         /// lblContactPhone control.
         /// </summary>
         /// <remarks>
@@ -65,6 +74,15 @@ namespace RecipeBookGroup11 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtContactDesc;
+        
+        /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
         /// lblContactEmail control.

@@ -21,12 +21,18 @@
             <asp:BoundField DataField="NameOfIngredient5" HeaderText="Name Of Ingredient" />
             <asp:BoundField DataField="NameOfIngredient6" HeaderText="Name Of Ingredient" />
             <asp:BoundField DataField="NameOfIngredient7" HeaderText="Name Of Ingredient" />
+            <asp:BoundField DataField="NameOfIngredient8" HeaderText="Name Of Ingredient" />
+            <asp:BoundField DataField="NameOfIngredient9" HeaderText="Name Of Ingredient" />
+            <asp:BoundField DataField="NameOfIngredient10" HeaderText="Name Of Ingredient" />
+            <asp:BoundField DataField="NameOfIngredient11" HeaderText="Name Of Ingredient" />
         </Fields>
         <%--Name: Darshit Desai
         Student Number: 300910840--%>
         <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
         <FooterTemplate>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Delete" />
+            &nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnEdit" runat="server" OnClick="btnEdit_Click" Text="Edit" />
         </FooterTemplate>
         <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
         <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
