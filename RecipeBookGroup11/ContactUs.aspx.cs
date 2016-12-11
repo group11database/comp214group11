@@ -34,7 +34,7 @@ namespace RecipeBookGroup11
                 OracleCommand com = new OracleCommand();
                 com.Connection = con;
 
-                com.CommandText = "INSERTCONTACTUS";
+                com.CommandText = "INSERT_CONTACT";
                 com.CommandType = CommandType.StoredProcedure;
 
                 com.Parameters.Add("name", OracleDbType.Varchar2).Value = txtContactName.Text;

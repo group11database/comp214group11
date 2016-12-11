@@ -4,7 +4,7 @@
 <div>
     <asp:Label ID="Label1" runat="server" Text="Name of Ingredient:" Width="150px"></asp:Label>
     <asp:TextBox ID="txtNameOfIngre" runat="server"></asp:TextBox>
-    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNameOfIngre" ValidationExpression="[a-zA-z]*$" ErrorMessage="*Valid characters: Alphabets and space." ForeColor="Red"></asp:RegularExpressionValidator>
+    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNameOfIngre" ValidationExpression="[a-z A-z]*$" ErrorMessage="*Valid characters: Alphabets and space." ForeColor="Red"></asp:RegularExpressionValidator>
     <br /><br />
     <%--Name: Darshit Desai
     Student Number: 300910840--%>
