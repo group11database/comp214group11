@@ -8,8 +8,8 @@
     That's the whole idea of this website. In addition, this website contains simple, delicious and healthy dishes that can be made at your home.
     We have added number of recipes including Indian recipes, International recipes, sweet and snacks, diet recipes, chicken recipes and of course desserts too.
     </p>
-    <%--Name: Darshit Desai
-    Student Number: 300910840--%>
+      
+     
     <img src="Styles/6.jpg" style="height: 164px; width: 254px" runat="server" class="imgleft"/>
     <p  style="text-align:justify">
         Indian Cuisine:<br />
@@ -21,5 +21,5 @@
         Chicken Dishes:<br />
         Chicken is the most widely used poultry used for countless number of dishes around the world. It is eaten by all non-vegetarians and does not have any religious restrictions. In India, chicken is often cut into medium sized pieces and is used to make curries, dry dishes and biryani. Also chicken drumstick and thighs are sold separately which are used to make roast, tandoori chicken etc. 
     </p>
-    <%--<asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Total number of Recipes on website:</asp:LinkButton>--%>
+    
 </asp:Content>

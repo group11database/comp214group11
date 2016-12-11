@@ -35,8 +35,8 @@
     <asp:Label ID="lblAstr3" runat="server" Text="*" ForeColor="Red"></asp:Label>
     <asp:CompareValidator ID="CompareValidatorServingNum" runat="server" ControlToValidate="txtServingNum" ErrorMessage="Please Enter Number!!"  Operator="DataTypeCheck" Type="Integer" ForeColor="Red" Display="Dynamic"></asp:CompareValidator>
     <br /><br />
-    <%--Name: Darshit Desai
-    Student Number: 300910840--%>
+      
+     
     <asp:Label ID="lblResDesc" runat="server" Text="Recipe Description: " Width="150px"></asp:Label>
     <asp:TextBox ID="txtResDesc" runat="server" TextMode="MultiLine" ></asp:TextBox>
     <asp:Label ID="lblAstr4" runat="server" Text="*" ForeColor="Red"></asp:Label>

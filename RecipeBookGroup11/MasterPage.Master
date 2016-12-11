@@ -21,8 +21,8 @@
                     <img src="Styles/book.jpg" style="height:100px; width:100px; margin-top:-70px; margin-left:20px;" runat="server"/>
                 </div>
             </div>
-            <%--Name: Darshit Desai
-            Student Number: 300910840--%>
+              
+             
             <!-- Navigation Bar -->
             <div id="navigation">
                 <ul id="nav"> 

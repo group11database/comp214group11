@@ -6,8 +6,8 @@
     <asp:TextBox ID="txtNameOfIngre" runat="server"></asp:TextBox>
     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNameOfIngre" ValidationExpression="[a-z A-z]*$" ErrorMessage="*Valid characters: Alphabets and space." ForeColor="Red"></asp:RegularExpressionValidator>
     <br /><br />
-    <%--Name: Darshit Desai
-    Student Number: 300910840--%>
+      
+     
     <asp:Label ID="Label2" runat="server" Text="Quantity:" Width="150px"></asp:Label>
     <asp:TextBox ID="txtQuantity" runat="server"></asp:TextBox>
     <asp:CompareValidator ID="CompareValidatorQuantity" runat="server" ControlToValidate="txtQuantity" ErrorMessage="Please Enter Number!!"  Operator="DataTypeCheck" Type="Integer" ForeColor="Red" Display="Dynamic"></asp:CompareValidator>

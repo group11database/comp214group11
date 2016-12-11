@@ -28,10 +28,7 @@
         <asp:TextBox ID="txtSurvingNumberUpdate" runat="server"></asp:TextBox>
     </p>
 
-    <%--<p>
-    <asp:Label ID="lblResDesc" runat="server" Text="Recipe Description: " Width="150px"></asp:Label>
-        <asp:TextBox ID="txtResDescUpdate" runat="server"></asp:TextBox>
-    </p>--%>
+    
     <p>
         Ingredients:</p>
     <p>

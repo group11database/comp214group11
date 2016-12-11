@@ -12,8 +12,8 @@
     <asp:DropDownList ID="dropDownIngredient" runat="server" Width="150px">
     </asp:DropDownList>
     <br /><br /><br />
-    <%--Name: Darshit Desai
-    Student Number: 300910840--%>
+      
+     
     <asp:Label ID="Label3" runat="server" Text="Submitted By: " Width="150px"></asp:Label>
     <asp:DropDownList ID="dropDownSubmittedBy" runat="server" Width="150px">
     </asp:DropDownList>
